@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: "Rubik", sans-serif, serif;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: rgb(30, 30, 30);
+}
+
+.input,
+select {
+  border: 1px solid rgb(135, 135, 135);
+  border-radius: 0.3rem;
+  padding: 0.25rem;
+}
+.input {
+  width: 7em;
+}
+
+select {
+  margin-left: 0.5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
