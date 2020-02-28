@@ -9,7 +9,7 @@ function CurrensyRow(props) {
     onChangeAmount
   } = props;
   //   Initially amount equals to NaN, wait untill it's assigned to number
-  if (amount) {
+  if (amount || amount == 0) {
     return (
       <>
         <input
